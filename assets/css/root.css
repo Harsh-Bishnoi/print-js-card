@@ -1,0 +1,13 @@
+:root {
+    /* font-family */
+    --font-family-primary: "Work Sans", serif;
+    /* colors */
+    --color-black: #000000;
+    --color-grey: #7B7B7B;
+    --color-orange: #FF5300;
+    --color-white: #FFFFFF;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
