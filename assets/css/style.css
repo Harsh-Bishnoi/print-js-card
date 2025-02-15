@@ -25,7 +25,7 @@
 .common-class {
     width: 40px;
     height: 40px;
-    right: 0px;
+    right: -50px;
     transition: all 250ms linear;
     background-color: #fff;
 }
@@ -45,4 +45,22 @@
 
 .svg-box-4 {
     bottom: 38%;
+}
+
+.svg-box-1:hover,
+.svg-box-2:hover,
+.svg-box-3:hover,
+.svg-box-4:hover {
+    background-color: #FF5300;
+
+    path {
+        fill: white;
+    }
+}
+
+.card-box:hover .svg-box-1,
+.card-box:hover .svg-box-2,
+.card-box:hover .svg-box-3,
+.card-box:hover .svg-box-4 {
+    right: 0;
 }
